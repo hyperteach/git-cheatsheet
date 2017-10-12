@@ -14,7 +14,7 @@ Pour pouvoir participer à un projet tracké par Git, il faut faire ceci afin de
 
 	git clone https://github.com/hyperteach/git-cheatsheet
 
-On vous demandera votre login et mot de passe Bitbucket pour continuer
+On peut éventuellement vous demander votre login et mot de passe GitHub pour continuer
 
 
 Vous pouvez aussi mettre votre nom d'utilisateur directement dans la commande, ainsi vous n'aurez pas à le retaper à chaque opération distante:
@@ -156,7 +156,7 @@ Récupérer un fichier depuis une autre branche:
 
     git checkout nom_de_la_branche Chemin/Vers/LeFichierEnQuestion.cs
 
-Récupérer un fichier à un Commit donné (besoin des quelques premiers caractères du code d'un commit, visibles dans `git log` ou [sur la page Bitbucket](https://bitbucket.org/ysinteractive/blacksad_proto_cleaned/commits/all)):
+Récupérer un fichier à un Commit donné (besoin des quelques premiers caractères du code d'un commit, visibles dans `git log` ou [sur la page GitHub](https://github.com/hyperteach/git-cheatsheet/commits/master)):
 
     git checkout 8b1c5d Chemin/Vers/LeFichierEnQuestion.cs
 
