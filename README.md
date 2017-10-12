@@ -21,6 +21,19 @@ Vous pouvez aussi mettre votre nom d'utilisateur directement dans la commande, a
 
 	git clone https://MON_PSEUDO@github.com/hyperteach/git-cheatsheet
 
+#### git init
+
+Créer un nouveau projet Git   
+   
+Pour créer un nouveau projet Git, il faut placer son terminal dans le dossier qu'on veut utiliser, puis:
+
+	git init
+
+Si vous voulez que ce projet soit hébergé sur un serveur distant, il faut mettre ça en place (par exemple sur [github.com](https://github.com/), puis une fois qu'on a l'adresse du repo distant, faire:
+
+	git add origin https://github.com/MON_PSEUDO/NOM_DU_PROJET
+	git push -u origin master
+
 
 ### Opérations distantes
 
